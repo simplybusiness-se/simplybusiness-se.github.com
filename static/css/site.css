@@ -1,0 +1,64 @@
+@CHARSET "UTF-8";
+
+/**
+ * www.simplybusiness.se website
+ *
+ * Designed and implemented by simplybusiness.se
+ *
+ * Copyright simplybusiness.se 2012
+**/
+
+body {
+    width: 100%;
+    background: #E5E5E5;
+}
+
+#header {
+    background-color: #000;
+}
+
+#header .content,
+#body {
+    width: 940px;
+    margin: 0 auto;
+}
+
+#header .content .logo {
+    margin: 34px 0 0 15px;
+}
+
+.page {
+    position: relative;
+    margin-bottom: 125px;
+    border-top: 12px solid #000;
+    background: #FFF;
+}
+
+.page .content {
+    height: 478px;
+    padding: 44px 15px 0 15px;
+    overflow: hidden;
+}
+
+.page .large-note {
+    font-size: 60px;
+    line-height: 65px;
+}
+
+#page-1 {
+    border-top: none;
+    border-bottom: 12px solid #000;
+}
+
+#page-1 .logo-tagline {
+    position: absolute;
+    top: 405px;
+    left: 497px;
+}
+
+#page-1 .content {
+    background: url('../images/happy-people.png') no-repeat 67px 237px;
+}
+
+
+
