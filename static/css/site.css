@@ -13,41 +13,75 @@ body {
     background: #E5E5E5;
 }
 
-#header {
-    background-color: #000;
-}
-
 #header .content,
+#footer .content,
 #body {
     width: 940px;
     margin: 0 auto;
+}
+
+/**
+ * Header.
+**/
+
+#header {
+    background-color: #000;
 }
 
 #header .content .logo {
     margin: 34px 0 0 15px;
 }
 
+/**
+ * Footer.
+**/
+
+#footer .content {
+    padding: 38px 0 26px 0;
+    text-align: center;
+}
+
+#footer .copyright {
+    font-size: 9px;
+    text-height: 12px;
+}
+
+/**
+ * Pages.
+**/
+
 .page {
-    position: relative;
     margin-bottom: 125px;
     border-top: 12px solid #000;
     background: #FFF;
 }
 
+.page:last-child {
+    margin-bottom: 0px;
+}
+
 .page .content {
-    height: 478px;
+    position: relative;
+    height: 573px;
     padding: 44px 15px 0 15px;
     overflow: hidden;
 }
 
-.page .large-note {
-    font-size: 60px;
-    line-height: 65px;
+.page .content .info-strip {
+    width: 100%;
 }
+
+/**
+ * page-1
+**/
 
 #page-1 {
     border-top: none;
     border-bottom: 12px solid #000;
+}
+
+#page-1 .content {
+    height: 478px;
 }
 
 #page-1 .logo-tagline {
@@ -60,5 +94,34 @@ body {
     background: url('../images/happy-people.png') no-repeat 67px 237px;
 }
 
+/**
+ * page-2
+**/
+
+#page-2 .infographic-man {
+    position: absolute;
+    top: 178px;
+    left: 65px;
+}
+
+#page-2 .info-strip {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+#page-2 .info-strip .info-1 {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    font-size: 23px;
+    line-height: 60px;
+}
+
+#page-2 .info-strip .info-2 {
+    padding: 0px 15px 0px 15px;
+    font-size: 9px;
+    line-height: 22px;
+}
 
 
